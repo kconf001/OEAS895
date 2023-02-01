@@ -1,0 +1,29 @@
+#Initial Conclusions Summary
+
+#Data is nonparametric (does not follow Gaussian distribution)- concluded from histogram, QQ-plot, and Shapiro-Wilk tests
+
+#There is a lot of repeat locations in the data set, or locations that are close to one another. 
+#Needed to combine location/area values for overall totals.
+#Further research could look into the specific lat longs of each location if available
+
+#There is 3657 different variables, where 69 are samples with 53 types of data points/variables. 
+#Within the dataset, the d-types are 47 integer, 4 float, and 2 objects. 
+#There is no NaN values in the dataset. 
+
+#There is a lot of variation in the data with drastic outliers, where Barraud Park had noticble outliers in terms of trash weight/items collected,
+#and volunteer numbers and hours in 2022. 
+#Norfolk Collegiate (Lafayette Park-Boat Ramp) had an outlier of the most miles covered (10 miles). 
+
+#General correlation between each of the different locations/areas and other variables (excluding dates) is positive (PCA test). 
+
+#Specifically, Spearmans correlation and Scatterplots suggest that there's a positive correlation,
+#where higher volunteer impact & area coverage is correlated with more litter items and weight collected
+
+#There is no correlation between litter and dates, collection happened in the Fall/Winter months, 
+#and even in different years there was no significant correlation
+#Time of collection has no correlation with amount and weight of trash collected as well as volunteer number and hours.
+
+#Within the Barrod Park Area (combined overall totals),
+#The majority of trash collected in Barraud Park is metal bottle caps (14402 and 23.7%), 
+#followed by cigarettte butts (11495, 18.9%) and then plastic pieces (10281,16.9%).
+#There isn't any data about individual weight distribution but that would be interesting to see
