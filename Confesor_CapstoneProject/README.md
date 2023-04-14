@@ -65,7 +65,7 @@ Instructions are included below for download directly from CMEMs.
 
 <p> python -m motuclient --motu https://my.cmems-du.eu/motu-web/Motu --service-id GLOBAL_MULTIYEAR_BGC_001_029-TDS --product-id cmems_mod_glo_bgc_my_0.25_P1D-m --longitude-min -86.546279567723 --longitude-max -79.31701110062916 --latitude-min 24.073184112638952 --latitude-max 30.579525733023395 --date-min "2015-01-01 00:00:00" --date-max "2020-12-31 23:59:59" --depth-min 0.51 --depth-max 0.51 --variable chl --variable no3 --variable o2 --variable po4 --variable si --out-dir Input/Directory/here  --out-name NutrientsTotal.nc --user InsertUsernameHere --pwd “InputPasswordHere" </p>
 
-**The nc files I downloaded are included in this repository in a zipfile (SalTempTotal.nc & NutrientsTotal.nc in NETCDF4_Files.zip)**
+**The .nc files I downloaded are too big to upload to Github! instead I have links to where they can be accessed and downloaded.)**
 
 **FWC Data**
 <p> Contact habdata@myfwc.com for complete access to dataset (Not allowed to share publicly!). If you have data of your own make sure it's in a .csv file.
