@@ -51,7 +51,7 @@ conda install pandas,numpy,seaborn,matplotlib,cartopy,scikit-image,scikit-learn,
 ### **Instructions**
 Full details can be found below. Make sure all files are in the same directory!
 ### <em> Downloading Data</em>
-.nc files have been provided in the GitHub Repository
+Data Access can be found in the DataAccess.docx files.
 Instructions are included below for download directly from CMEMs.
 
 **In Anaconda Powershell Prompt: Need to install the motuclient in order to download CMEMS data (Need an account first!) https://data.marine.copernicus.eu/products**
